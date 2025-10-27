@@ -1,0 +1,339 @@
+body{
+    font-family: "roboto" sans-serif;
+}
+#home h1{
+    fon
+} 
+
+nav{
+    /* background-color: #4741a6 !important; */
+    background-color: #450063 !important;
+}
+
+
+body .color{
+    color: #FBE8E7 !important;
+}
+.text-dark{
+    color:  #9414D1 !important;
+}
+
+.text-RED{
+  color: #FD59CA;
+}
+
+.border-success{
+    border:  3px solid #450063 !important;
+    color: white !important;
+    font-size: 17px;
+    background-color: #450063;
+    box-shadow: 0px 4px 1px #0000;
+}
+
+button {
+  background: transparent;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #FFFF; /* ou celle que tu choisis */
+  transform: scale(1.06);
+  color: #FD59CA !important;
+}
+
+nav .nav-link:hover {
+    color: #FD59CA !important;
+    width: auto;
+    height: 35px;
+}
+
+.back{
+    background-image: url("IMAGES/téléchargement.png") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 1s ease-out;
+}
+
+.bg-succes{
+    background-color: #89CFF0 !important;
+}
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.text-black{
+    color: black;
+}
+
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.navbar-brand,
+.text-primary {
+  color:#A4593C !important;
+}
+
+i{
+    color: #fff;
+    margin-left: 20px;
+}
+
+i:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+}
+.nav-item{
+    font-weight: 500;
+}
+
+.btn-primar{
+      border: 2px solid #A4593C !important;
+      border: none;
+      color: #A4593C;
+      font-size: 20px;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+}
+
+
+.btn-primar:hover {
+      transform: scale(1.05);
+      box-shadow: 10px 10px 20px rgba(255, 107, 53, 0.3);
+}
+.nav-link:hover {
+    color: #450063;
+}
+  
+p {
+    font-size: 18px;
+}
+
+  
+.blue-bg {
+    height: 15vh;
+
+
+    color: #450063;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border: none !important;
+    background-color: #450063;
+    color: white !important;
+}
+
+.nav-tabs{
+    border: none !important;
+}
+
+
+/* nos produits */
+
+  body {
+      background-color: #fff;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .product-section {
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .product-section h2 {
+      font-weight: 900;
+      font-size: 2.5rem;
+      color: #9414D1;
+      margin-bottom: 30px;
+    }
+
+    .filter-btn {
+      border: none;
+      background: #f2f2f2;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .filter-btn.active, .filter-btn:hover {
+      background-color: #450063;
+      color: #fff;
+    }
+
+    .product-card {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+
+    .product-card img {
+      border-radius: 12px 12px 0 0;
+      height: 200px;
+      object-fit: contain;
+      background-color: #f9f9f9;
+      padding: 10px;
+    }
+
+    .product-name {
+      font-weight: 600;
+      color: #9414D1;
+      margin-top: 10px;
+    }
+
+
+
+    :root{
+      --afro-rose: #450063;
+      --afro-rose-hover: #FFFFF;
+      --afro-vert:#450063;
+      --afro-rose-very-light: #F7EDEE;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background-color: #fffaf9;
+      color: #222;
+    }
+
+    /* Section header */
+    .blog-hero{
+      background: linear-gradient(180deg, rgba(225,164,161,0.08), rgba(255,255,255,0));
+      border-radius: .75rem;
+      padding: 2.25rem;
+      margin-bottom: 1.5rem;
+    }
+    .blog-hero h1{
+      color: var(--afro-vert);
+      font-weight: 700;
+      letter-spacing: .2px;
+    }
+    .blog-hero p.lead{
+      color: rgba(33,78,1,0.85);
+      margin-top: .5rem;
+    }
+
+    /* Article cards */
+    .card-blog {
+      border: none;
+      border-radius: 14px;
+      box-shadow: 0 6px 20px rgba(33,78,1,0.05);
+      overflow: hidden;
+      transition: transform .22s ease, box-shadow .22s ease;
+    }
+    .card-blog:hover{
+      transform: translateY(-6px);
+      box-shadow: 0 12px 30px rgba(33,78,1,0.08);
+    }
+    .card-blog .card-img-top{
+      height: 180px;
+      object-fit: cover;
+    }
+    .category-badge{
+      background: rgba(33,78,1,0.95);
+      color: #fff;
+      font-size: .75rem;
+      padding: .35rem .6rem;
+      border-radius: 999px;
+      letter-spacing: .2px;
+    }
+
+    /* Buttons and links */
+    .btn-afro {
+      background-color: var(--afro-rose);
+      color: #fff;
+      border: none;
+      box-shadow: none;
+      transition: background-color .22s ease, transform .12s ease;
+    }
+    .btn-afro:hover, .btn-afro:focus {
+      background-color: var(--afro-rose-hover);
+      transform: scale(1.02);
+      color: #450063;
+      border:  2px solid #450063;
+    }
+    .read-more {
+      color: var(--afro-vert);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .read-more:hover {
+         color: var(--afro-rose-hover);
+         text-decoration: underline; 
+        }
+
+    /* Video thumbnail */
+    .video-thumb {
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+    }
+    .video-thumb::after {
+      content: "▶";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      font-size: 38px;
+      background: rgba(0,0,0,0.35);
+      color: #fff;
+      padding: 10px 14px;
+      border-radius: 999px;
+      pointer-events: none;
+    }
+
+    /* small devices spacing */
+    @media (max-width: 575.98px) {
+      .card-blog .card-img-top { height: 150px; }
+    }
+
+
+.btn-produits-luxe {
+  background: transparent;
+  color: #9414D1;
+  border: 2px solid #9414D1;
+width: 32vh;
+height: 11vh;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.red{
+  background-color: #450063 !important;
+}
+.btn-produits-luxe:hover {
+  background-color: #450063;
+  color: white;
+}
+
+  #scrollTopBtn {
+    display: none;
+    transition: all 0.3s ease;
+  }
+  footer a:hover {
+    color: #450063; /* bordeaux AfroGlow */
+    text-decoration: none;
+  }
+
+  footer i:hover {
+    color: #450063; 
+  }
